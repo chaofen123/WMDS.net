@@ -4,13 +4,6 @@ clear
 load('Gene_Net.mat');
 node=unique(edge);
 tumor=importdata('TCGA_BLCAtumor.txt');
-
-
-save('TCGA_BLCAtumor','tumor')
-t=load('TCGA_BLCAtumor');
-
-
-
 express_gene=tumor.textdata(2:end,1);
 tumor_expression=tumor.data;
 In=ismember(express_gene,node);
