@@ -9,3 +9,9 @@ We developed a weighted MDS network model (WMDS.net) to find the drive nodes of 
 Gene_Net is the hub network of intersection of gene interaction network constructed in Dawnrank[1] and the genes in TCGA.
 
 ## Tools
+ 
+In this study, we implement the algorithm using the Matlab program language and solve the binary integer-programming problem using function “intlinprog” which is available in the Optimization ToolBox of MatLab version R2020b.
+
+## Reference
+
+[1]Hou JP, Ma J: DawnRank: discovering personalized driver genes in cancer. Genome Medicine 2014, 6.
