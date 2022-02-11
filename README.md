@@ -10,7 +10,7 @@ Gene_Net is the hub network of intersection of gene interaction network construc
 
 ## Tools
  
-In this study, we implement the algorithm using the Matlab program language and solve the binary integer-programming problem using function “intlinprog” which is available in the Optimization ToolBox of MatLab version R2020b.
+In this study, we implement the algorithm using the Matlab program language and solve the binary integer-programming problem using function “intlinprog” which is available in the Optimization ToolBox of MatLab version R2020b. The inputs of the main program are the expression metrix of two conditions, and the output is the gene list of key nodes in the final network. The format of 
 
 ## Reference
 
