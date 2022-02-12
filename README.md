@@ -10,7 +10,7 @@ Gene_Net is the hub network of intersection of gene interaction network construc
 
 ## Tools
  
-In this study, we implement the algorithm using the Matlab program language and solve the binary integer-programming problem using function “intlinprog” which is available in the Optimization ToolBox of MatLab version R2020b. The inputs of the main program are the expression matrices of two conditions (which are TCGA_BLCAtumor and TCGA_BLCAnormal in the test), and the output is the gene list of key nodes in the final network. The rows of the expression matrices are the genes which are converted to symbol ID and the columns are the samples.
+In this study, we implement the algorithm using the Matlab program language and solve the binary integer-programming problem using function “intlinprog” which is available in the Optimization ToolBox of MatLab version R2020b. The inputs to the main program are the expression matrices of the two conditions (which are TCGA_BLCAtumor and TCGA_BLCAnormal in the tested data), and the output is the gene list of key nodes in the final network. The rows of the expression matrices represent gene expression, and the columns represent samples. The row and column names of the expression matrices are gene symbols and sample ids, respectively.
 
 ## Reference
 
